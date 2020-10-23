@@ -17,20 +17,3 @@ class QuickFindUF:
         for i, iID in enumerate(self.ID):
             if iID == pID:
                 self.ID[i] = qID
-
-qf = QuickFindUF(10)
-
-qf.union(4, 3)
-qf.union(3, 8)
-qf.union(5, 6)
-qf.union(9, 4)
-qf.union(1, 2)
-
-print(qf.connected(8,9))
-print(qf.connected(5,0))
-
-qf.union(5,0)
-qf.union(7,2)
-qf.union(6,1)
-
-print(qf.connected(5,0))
