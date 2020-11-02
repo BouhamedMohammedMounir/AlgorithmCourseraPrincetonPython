@@ -1,4 +1,4 @@
-# Description: Quick union algorithm (Lazy approach) implemented in Python
+# Description: Weighted Quick union algorithm (Lazy approach) implemented in Python
 # Python version: 3.8
 # Created by: BMM
 # Date: 2020 oct 31
