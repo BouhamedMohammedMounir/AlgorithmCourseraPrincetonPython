@@ -1,3 +1,8 @@
+# Dynamic Connectivity
+# Created by: Mohammed Mounir, Bouhamed
+# Date: July 10, 2021
+
+
 class UF:
 
     def __init__(self, n):

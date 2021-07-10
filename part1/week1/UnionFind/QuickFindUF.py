@@ -1,3 +1,7 @@
+# Quick Find
+# Created by: Mohammed Mounir, Bouhamed
+# Date: July 10, 2021
+
 class QuickFindUF:
 
     def __init__(self, n):
