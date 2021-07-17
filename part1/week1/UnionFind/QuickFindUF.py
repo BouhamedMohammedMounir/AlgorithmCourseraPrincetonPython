@@ -1,4 +1,4 @@
-# Quick Find
+# Quick Find (Eager approach)
 # Created by: Mohammed Mounir, Bouhamed
 # Date: July 10, 2021
 
@@ -7,10 +7,8 @@ class QuickFindUF:
     def __init__(self, n):
         self.id = list(range(0, n))
 
-
     def connected(self, p, q):
         return self.id[p] == self.id[q]
-
 
     def union(self, p, q):
         p_id = self.id[p]
